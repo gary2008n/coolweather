@@ -1,4 +1,4 @@
-package com.coolweather.android.gson;
+package com.garyweather.android.gson;
 
 /**
  * Created by gsl on 2017/11/7.

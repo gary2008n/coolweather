@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.coolweather.android">
+    package="com.garyweather.android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,17 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.garyweather.android.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WeatherActivity" />
+        <activity android:name="com.garyweather.android.WeatherActivity" />
 
         <service
-            android:name=".service.AutoUpdateService"
+            android:name="com.garyweather.android.service.AutoUpdateService"
             android:enabled="true"
             android:exported="true"></service>
     </application>
